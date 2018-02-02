@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "graphql-example",
+      "script": "src/index.js",
+      "merge_logs": true,
+      "watch": false,
+      "ignore_watch": ["[\\/\\\\]\\./", "node_modules"],
+      "maxRestarts": 2
+    }
+  ]
+}
